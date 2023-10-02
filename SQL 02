@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS students(
+    student_id INT(10) NOT NULL AUTO_INCREMENT
+    first_name VARCHAR(30),
+    last_name VARCHAR(30),
+    PRIMARY key (student_id)
+    );
+
+INSERT INTO student(last_name , first_name)
+VALUES
+    ('covelli' , 'maurizio'),
+    ('rossi' , 'matteo'),
+    ('bianchi' , 'edoardo'),
+    ('vitti' , 'monica');
